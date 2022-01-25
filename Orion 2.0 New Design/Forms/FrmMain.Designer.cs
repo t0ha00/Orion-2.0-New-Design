@@ -62,6 +62,7 @@ namespace Orion_2._0_New_Design.Forms
             this.iconMinimizeWindow = new FontAwesome.Sharp.IconPictureBox();
             this.iconCloseWindow = new FontAwesome.Sharp.IconPictureBox();
             this.panelChildForm = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
             this.panelSideMenu.SuspendLayout();
             this.panelSearchSubMenu.SuspendLayout();
             this.panelEconomicSubMenu.SuspendLayout();
@@ -76,6 +77,7 @@ namespace Orion_2._0_New_Design.Forms
             ((System.ComponentModel.ISupportInitialize)(this.iconMaximazeWindow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMinimizeWindow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCloseWindow)).BeginInit();
+            this.panelChildForm.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -604,11 +606,22 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelChildForm
             // 
+            this.panelChildForm.Controls.Add(this.button8);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(250, 55);
             this.panelChildForm.Name = "panelChildForm";
             this.panelChildForm.Size = new System.Drawing.Size(899, 545);
             this.panelChildForm.TabIndex = 2;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(61, 56);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 0;
+            this.button8.Text = "button8";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // FrmMain
             // 
@@ -619,6 +632,7 @@ namespace Orion_2._0_New_Design.Forms
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.panelSideMenu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(950, 600);
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -638,6 +652,7 @@ namespace Orion_2._0_New_Design.Forms
             ((System.ComponentModel.ISupportInitialize)(this.iconMaximazeWindow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMinimizeWindow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCloseWindow)).EndInit();
+            this.panelChildForm.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -677,5 +692,6 @@ namespace Orion_2._0_New_Design.Forms
         private FontAwesome.Sharp.IconPictureBox iconCloseWindow;
         private FontAwesome.Sharp.IconPictureBox iconCurrentChildForm;
         private System.Windows.Forms.Label titleCurrentChildForm;
+        private System.Windows.Forms.Button button8;
     }
 }

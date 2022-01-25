@@ -27,11 +27,12 @@ namespace Orion_2._0_New_Design.Forms
             CustomizeDesign();
             //Меняем размер рамок
             this.Text = String.Empty;
-            this.ControlBox = false;
+            
             this.DoubleBuffered = false;
         }
         private void CustomizeDesign()
         {
+            this.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size;
             panelArchiveSubMenu.Visible = false;
             panelContractSubMenu.Visible = false;
             panelSearchSubMenu.Visible = false;
@@ -127,6 +128,12 @@ namespace Orion_2._0_New_Design.Forms
 
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        public void Alert(string msg)
+        {
+            Form_Alert frm = new Form_Alert();
+            frm.showAlert(msg);
+        }
 
         private void buttonArchive_Click(object sender, EventArgs e)
         {
@@ -242,6 +249,11 @@ namespace Orion_2._0_New_Design.Forms
         private void iconMinimizeWindow_MouseLeave(object sender, EventArgs e)
         {
             iconMinimizeWindow.IconColor = Color.Black;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Alert("ТЕСТ");
         }
     }
 }
