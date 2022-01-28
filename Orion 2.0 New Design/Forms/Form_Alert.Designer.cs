@@ -52,7 +52,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panel2.Controls.Add(this.iconPictureBox1);
             this.panel2.Location = new System.Drawing.Point(291, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(108, 112);
+            this.panel2.Size = new System.Drawing.Size(108, 101);
             this.panel2.TabIndex = 2;
             // 
             // iconPictureBox1
@@ -63,10 +63,10 @@ namespace Orion_2._0_New_Design.Forms
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Times;
             this.iconPictureBox1.IconColor = System.Drawing.Color.White;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 108;
+            this.iconPictureBox1.IconSize = 101;
             this.iconPictureBox1.Location = new System.Drawing.Point(0, 0);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(108, 112);
+            this.iconPictureBox1.Size = new System.Drawing.Size(108, 101);
             this.iconPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconPictureBox1.TabIndex = 0;
             this.iconPictureBox1.TabStop = false;
@@ -80,7 +80,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panel3.Controls.Add(this.iconPictureBox2);
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(94, 112);
+            this.panel3.Size = new System.Drawing.Size(94, 101);
             this.panel3.TabIndex = 3;
             // 
             // iconPictureBox2
@@ -93,7 +93,7 @@ namespace Orion_2._0_New_Design.Forms
             this.iconPictureBox2.IconSize = 94;
             this.iconPictureBox2.Location = new System.Drawing.Point(0, 0);
             this.iconPictureBox2.Name = "iconPictureBox2";
-            this.iconPictureBox2.Size = new System.Drawing.Size(94, 112);
+            this.iconPictureBox2.Size = new System.Drawing.Size(94, 101);
             this.iconPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconPictureBox2.TabIndex = 0;
             this.iconPictureBox2.TabStop = false;
@@ -111,7 +111,7 @@ namespace Orion_2._0_New_Design.Forms
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(185, 112);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(185, 101);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
             // label1
@@ -120,7 +120,7 @@ namespace Orion_2._0_New_Design.Forms
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(15, 43);
+            this.label1.Location = new System.Drawing.Point(15, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 25);
             this.label1.TabIndex = 0;
@@ -133,7 +133,7 @@ namespace Orion_2._0_New_Design.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(399, 112);
+            this.ClientSize = new System.Drawing.Size(399, 101);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel3);

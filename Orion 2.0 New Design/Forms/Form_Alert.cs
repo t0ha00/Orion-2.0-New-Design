@@ -24,6 +24,14 @@ namespace Orion_2._0_New_Design.Forms
             close
         }
 
+        public enum enmType
+        {
+            Success,
+            Warning,
+            Error,
+            Info
+        }
+
         private Form_Alert.enmAction action;
         private int x,y;
 
@@ -62,7 +70,7 @@ namespace Orion_2._0_New_Design.Forms
             }
         }
 
-        public void showAlert(string msg)
+        public void showAlert(string msg, enmType type)
         {
             this.Opacity = 0.0;
             this.StartPosition = FormStartPosition.Manual;
@@ -77,12 +85,40 @@ namespace Orion_2._0_New_Design.Forms
                 {
                     this.Name = fname;
                     this.x = Screen.PrimaryScreen.WorkingArea.Width - this.Width + 15;
-                    this.y = Screen.PrimaryScreen.WorkingArea.Height - this.Height * i;
+                    this.y = Screen.PrimaryScreen.WorkingArea.Height - this.Height * i - 5 * i;
                     this.Location = new Point(this.x, this.y);
                     break;
                 }
             }
             this.x = Screen.PrimaryScreen.WorkingArea.Width - base.Width - 5;
+
+            switch (type)
+            {
+                case enmType.Success:
+                    this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.CheckCircle;
+                    this.iconPictureBox1.BackColor = Color.Green;
+                    this.iconPictureBox2.BackColor = Color.Green;
+                    this.BackColor = Color.Green;
+                    break;
+                case enmType.Info:
+                    this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.InfoCircle;
+                    this.iconPictureBox1.BackColor = Color.RoyalBlue;
+                    this.iconPictureBox2.BackColor = Color.RoyalBlue;
+                    this.BackColor = Color.RoyalBlue;
+                    break;
+                case enmType.Error:
+                    this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.SadTear;
+                    this.iconPictureBox1.BackColor = Color.DarkRed;
+                    this.iconPictureBox2.BackColor = Color.DarkRed;
+                    this.BackColor = Color.DarkRed;
+                    break;
+                case enmType.Warning:
+                    this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.ExclamationCircle;
+                    this.iconPictureBox1.BackColor = Color.DarkOrange;
+                    this.iconPictureBox2.BackColor = Color.DarkOrange;
+                    this.BackColor = Color.DarkOrange;
+                    break;
+            }
             // Добавляем текст
             this.label1.Text = msg;
 

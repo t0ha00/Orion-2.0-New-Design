@@ -157,6 +157,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\DataBank.cs" />
     <Compile Include="Forms\Form_Alert.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -201,8 +202,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Pages\" />
+    <Folder Include="ChildForms\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

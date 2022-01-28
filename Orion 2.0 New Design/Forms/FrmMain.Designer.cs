@@ -29,30 +29,31 @@ namespace Orion_2._0_New_Design.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.panelSearchSubMenu = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
+            this.iconButton7 = new FontAwesome.Sharp.IconButton();
             this.buttonSearch = new FontAwesome.Sharp.IconButton();
             this.panelEconomicSubMenu = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
+            this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.buttonEconomy = new FontAwesome.Sharp.IconButton();
             this.panelGroupSubMenu = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
+            this.iconButton5 = new FontAwesome.Sharp.IconButton();
             this.buttonMakeGroupe = new FontAwesome.Sharp.IconButton();
             this.panelStudSubMenu = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.buttonStudie = new FontAwesome.Sharp.IconButton();
             this.panelSettingsSubMenu = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.buttonSettings = new FontAwesome.Sharp.IconButton();
             this.panelMetodSubMenu = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.buttonMetod = new FontAwesome.Sharp.IconButton();
             this.panelContractSubMenu = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.buttonContract = new FontAwesome.Sharp.IconButton();
             this.panelArchiveSubMenu = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
+            this.button9 = new FontAwesome.Sharp.IconButton();
             this.buttonArchive = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelTop = new System.Windows.Forms.Panel();
@@ -62,7 +63,11 @@ namespace Orion_2._0_New_Design.Forms
             this.iconMinimizeWindow = new FontAwesome.Sharp.IconPictureBox();
             this.iconCloseWindow = new FontAwesome.Sharp.IconPictureBox();
             this.panelChildForm = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.timerSubMenu = new System.Windows.Forms.Timer(this.components);
             this.panelSideMenu.SuspendLayout();
             this.panelSearchSubMenu.SuspendLayout();
             this.panelEconomicSubMenu.SuspendLayout();
@@ -83,7 +88,7 @@ namespace Orion_2._0_New_Design.Forms
             // panelSideMenu
             // 
             this.panelSideMenu.AutoScroll = true;
-            this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
+            this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(72)))));
             this.panelSideMenu.Controls.Add(this.panelSearchSubMenu);
             this.panelSideMenu.Controls.Add(this.buttonSearch);
             this.panelSideMenu.Controls.Add(this.panelEconomicSubMenu);
@@ -109,34 +114,41 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelSearchSubMenu
             // 
-            this.panelSearchSubMenu.Controls.Add(this.button7);
+            this.panelSearchSubMenu.Controls.Add(this.iconButton7);
             this.panelSearchSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSearchSubMenu.Location = new System.Drawing.Point(0, 747);
+            this.panelSearchSubMenu.Location = new System.Drawing.Point(0, 663);
+            this.panelSearchSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelSearchSubMenu.Name = "panelSearchSubMenu";
-            this.panelSearchSubMenu.Size = new System.Drawing.Size(233, 41);
+            this.panelSearchSubMenu.Size = new System.Drawing.Size(233, 29);
             this.panelSearchSubMenu.TabIndex = 23;
             // 
-            // button7
+            // iconButton7
             // 
-            this.button7.BackColor = System.Drawing.Color.DimGray;
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button7.Location = new System.Drawing.Point(0, 0);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(233, 40);
-            this.button7.TabIndex = 0;
-            this.button7.Text = "Подменю";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.UseVisualStyleBackColor = false;
+            this.iconButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton7.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.iconButton7.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton7.IconSize = 18;
+            this.iconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton7.Location = new System.Drawing.Point(0, 0);
+            this.iconButton7.Name = "iconButton7";
+            this.iconButton7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.iconButton7.Size = new System.Drawing.Size(233, 29);
+            this.iconButton7.TabIndex = 2;
+            this.iconButton7.Text = "Подменю";
+            this.iconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton7.UseVisualStyleBackColor = false;
             // 
             // buttonSearch
             // 
             this.buttonSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonSearch.FlatAppearance.BorderSize = 0;
-            this.buttonSearch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.buttonSearch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
             this.buttonSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSearch.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonSearch.IconChar = FontAwesome.Sharp.IconChar.Search;
@@ -144,7 +156,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonSearch.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.buttonSearch.IconSize = 32;
             this.buttonSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSearch.Location = new System.Drawing.Point(0, 702);
+            this.buttonSearch.Location = new System.Drawing.Point(0, 618);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.buttonSearch.Size = new System.Drawing.Size(233, 45);
@@ -157,34 +169,41 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelEconomicSubMenu
             // 
-            this.panelEconomicSubMenu.Controls.Add(this.button6);
+            this.panelEconomicSubMenu.Controls.Add(this.iconButton6);
             this.panelEconomicSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelEconomicSubMenu.Location = new System.Drawing.Point(0, 661);
+            this.panelEconomicSubMenu.Location = new System.Drawing.Point(0, 589);
+            this.panelEconomicSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelEconomicSubMenu.Name = "panelEconomicSubMenu";
-            this.panelEconomicSubMenu.Size = new System.Drawing.Size(233, 41);
+            this.panelEconomicSubMenu.Size = new System.Drawing.Size(233, 29);
             this.panelEconomicSubMenu.TabIndex = 21;
             // 
-            // button6
+            // iconButton6
             // 
-            this.button6.BackColor = System.Drawing.Color.DimGray;
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button6.Location = new System.Drawing.Point(0, 0);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(233, 40);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "Подменю";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = false;
+            this.iconButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton6.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.iconButton6.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton6.IconSize = 18;
+            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton6.Location = new System.Drawing.Point(0, 0);
+            this.iconButton6.Name = "iconButton6";
+            this.iconButton6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.iconButton6.Size = new System.Drawing.Size(233, 29);
+            this.iconButton6.TabIndex = 2;
+            this.iconButton6.Text = "Подменю";
+            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton6.UseVisualStyleBackColor = false;
             // 
             // buttonEconomy
             // 
             this.buttonEconomy.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonEconomy.FlatAppearance.BorderSize = 0;
-            this.buttonEconomy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonEconomy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.buttonEconomy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonEconomy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
             this.buttonEconomy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEconomy.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonEconomy.IconChar = FontAwesome.Sharp.IconChar.RubleSign;
@@ -192,7 +211,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonEconomy.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.buttonEconomy.IconSize = 32;
             this.buttonEconomy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEconomy.Location = new System.Drawing.Point(0, 616);
+            this.buttonEconomy.Location = new System.Drawing.Point(0, 544);
             this.buttonEconomy.Name = "buttonEconomy";
             this.buttonEconomy.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.buttonEconomy.Size = new System.Drawing.Size(233, 45);
@@ -205,34 +224,41 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelGroupSubMenu
             // 
-            this.panelGroupSubMenu.Controls.Add(this.button5);
+            this.panelGroupSubMenu.Controls.Add(this.iconButton5);
             this.panelGroupSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelGroupSubMenu.Location = new System.Drawing.Point(0, 575);
+            this.panelGroupSubMenu.Location = new System.Drawing.Point(0, 515);
+            this.panelGroupSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelGroupSubMenu.Name = "panelGroupSubMenu";
-            this.panelGroupSubMenu.Size = new System.Drawing.Size(233, 41);
+            this.panelGroupSubMenu.Size = new System.Drawing.Size(233, 29);
             this.panelGroupSubMenu.TabIndex = 19;
             // 
-            // button5
+            // iconButton5
             // 
-            this.button5.BackColor = System.Drawing.Color.DimGray;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button5.Location = new System.Drawing.Point(0, 0);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(233, 40);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "Подменю";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
+            this.iconButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton5.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.iconButton5.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton5.IconSize = 18;
+            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton5.Location = new System.Drawing.Point(0, 0);
+            this.iconButton5.Name = "iconButton5";
+            this.iconButton5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.iconButton5.Size = new System.Drawing.Size(233, 29);
+            this.iconButton5.TabIndex = 2;
+            this.iconButton5.Text = "Подменю";
+            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton5.UseVisualStyleBackColor = false;
             // 
             // buttonMakeGroupe
             // 
             this.buttonMakeGroupe.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonMakeGroupe.FlatAppearance.BorderSize = 0;
-            this.buttonMakeGroupe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonMakeGroupe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.buttonMakeGroupe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonMakeGroupe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
             this.buttonMakeGroupe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMakeGroupe.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonMakeGroupe.IconChar = FontAwesome.Sharp.IconChar.UserFriends;
@@ -240,7 +266,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonMakeGroupe.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.buttonMakeGroupe.IconSize = 32;
             this.buttonMakeGroupe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonMakeGroupe.Location = new System.Drawing.Point(0, 530);
+            this.buttonMakeGroupe.Location = new System.Drawing.Point(0, 470);
             this.buttonMakeGroupe.Name = "buttonMakeGroupe";
             this.buttonMakeGroupe.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.buttonMakeGroupe.Size = new System.Drawing.Size(233, 45);
@@ -253,34 +279,41 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelStudSubMenu
             // 
-            this.panelStudSubMenu.Controls.Add(this.button4);
+            this.panelStudSubMenu.Controls.Add(this.iconButton4);
             this.panelStudSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelStudSubMenu.Location = new System.Drawing.Point(0, 489);
+            this.panelStudSubMenu.Location = new System.Drawing.Point(0, 441);
+            this.panelStudSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelStudSubMenu.Name = "panelStudSubMenu";
-            this.panelStudSubMenu.Size = new System.Drawing.Size(233, 41);
+            this.panelStudSubMenu.Size = new System.Drawing.Size(233, 29);
             this.panelStudSubMenu.TabIndex = 17;
             // 
-            // button4
+            // iconButton4
             // 
-            this.button4.BackColor = System.Drawing.Color.DimGray;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button4.Location = new System.Drawing.Point(0, 0);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(233, 40);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Подменю";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
+            this.iconButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.iconButton4.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton4.IconSize = 18;
+            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.Location = new System.Drawing.Point(0, 0);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.iconButton4.Size = new System.Drawing.Size(233, 29);
+            this.iconButton4.TabIndex = 2;
+            this.iconButton4.Text = "Подменю";
+            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton4.UseVisualStyleBackColor = false;
             // 
             // buttonStudie
             // 
             this.buttonStudie.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonStudie.FlatAppearance.BorderSize = 0;
-            this.buttonStudie.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonStudie.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.buttonStudie.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonStudie.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
             this.buttonStudie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonStudie.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonStudie.IconChar = FontAwesome.Sharp.IconChar.UserGraduate;
@@ -288,7 +321,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonStudie.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.buttonStudie.IconSize = 32;
             this.buttonStudie.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonStudie.Location = new System.Drawing.Point(0, 444);
+            this.buttonStudie.Location = new System.Drawing.Point(0, 396);
             this.buttonStudie.Name = "buttonStudie";
             this.buttonStudie.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.buttonStudie.Size = new System.Drawing.Size(233, 45);
@@ -301,34 +334,41 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelSettingsSubMenu
             // 
-            this.panelSettingsSubMenu.Controls.Add(this.button3);
+            this.panelSettingsSubMenu.Controls.Add(this.iconButton3);
             this.panelSettingsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSettingsSubMenu.Location = new System.Drawing.Point(0, 403);
+            this.panelSettingsSubMenu.Location = new System.Drawing.Point(0, 367);
+            this.panelSettingsSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelSettingsSubMenu.Name = "panelSettingsSubMenu";
-            this.panelSettingsSubMenu.Size = new System.Drawing.Size(233, 41);
+            this.panelSettingsSubMenu.Size = new System.Drawing.Size(233, 29);
             this.panelSettingsSubMenu.TabIndex = 15;
             // 
-            // button3
+            // iconButton3
             // 
-            this.button3.BackColor = System.Drawing.Color.DimGray;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button3.Location = new System.Drawing.Point(0, 0);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(233, 40);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Подменю";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
+            this.iconButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton3.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.iconButton3.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton3.IconSize = 18;
+            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton3.Location = new System.Drawing.Point(0, 0);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.iconButton3.Size = new System.Drawing.Size(233, 29);
+            this.iconButton3.TabIndex = 1;
+            this.iconButton3.Text = "Подменю";
+            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton3.UseVisualStyleBackColor = false;
             // 
             // buttonSettings
             // 
             this.buttonSettings.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonSettings.FlatAppearance.BorderSize = 0;
-            this.buttonSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.buttonSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
             this.buttonSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSettings.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonSettings.IconChar = FontAwesome.Sharp.IconChar.Cog;
@@ -336,7 +376,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonSettings.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.buttonSettings.IconSize = 32;
             this.buttonSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSettings.Location = new System.Drawing.Point(0, 358);
+            this.buttonSettings.Location = new System.Drawing.Point(0, 322);
             this.buttonSettings.Name = "buttonSettings";
             this.buttonSettings.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.buttonSettings.Size = new System.Drawing.Size(233, 45);
@@ -349,34 +389,41 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelMetodSubMenu
             // 
-            this.panelMetodSubMenu.Controls.Add(this.button2);
+            this.panelMetodSubMenu.Controls.Add(this.iconButton2);
             this.panelMetodSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelMetodSubMenu.Location = new System.Drawing.Point(0, 317);
+            this.panelMetodSubMenu.Location = new System.Drawing.Point(0, 293);
+            this.panelMetodSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelMetodSubMenu.Name = "panelMetodSubMenu";
-            this.panelMetodSubMenu.Size = new System.Drawing.Size(233, 41);
+            this.panelMetodSubMenu.Size = new System.Drawing.Size(233, 29);
             this.panelMetodSubMenu.TabIndex = 13;
             // 
-            // button2
+            // iconButton2
             // 
-            this.button2.BackColor = System.Drawing.Color.DimGray;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(233, 40);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Подменю";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
+            this.iconButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton2.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.iconButton2.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton2.IconSize = 18;
+            this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton2.Location = new System.Drawing.Point(0, 0);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.iconButton2.Size = new System.Drawing.Size(233, 29);
+            this.iconButton2.TabIndex = 1;
+            this.iconButton2.Text = "Подменю";
+            this.iconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton2.UseVisualStyleBackColor = false;
             // 
             // buttonMetod
             // 
             this.buttonMetod.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonMetod.FlatAppearance.BorderSize = 0;
-            this.buttonMetod.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonMetod.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.buttonMetod.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonMetod.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
             this.buttonMetod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMetod.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonMetod.IconChar = FontAwesome.Sharp.IconChar.PuzzlePiece;
@@ -384,7 +431,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonMetod.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.buttonMetod.IconSize = 32;
             this.buttonMetod.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonMetod.Location = new System.Drawing.Point(0, 272);
+            this.buttonMetod.Location = new System.Drawing.Point(0, 248);
             this.buttonMetod.Name = "buttonMetod";
             this.buttonMetod.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.buttonMetod.Size = new System.Drawing.Size(233, 45);
@@ -397,34 +444,41 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelContractSubMenu
             // 
-            this.panelContractSubMenu.Controls.Add(this.button1);
+            this.panelContractSubMenu.Controls.Add(this.iconButton1);
             this.panelContractSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelContractSubMenu.Location = new System.Drawing.Point(0, 231);
+            this.panelContractSubMenu.Location = new System.Drawing.Point(0, 219);
+            this.panelContractSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelContractSubMenu.Name = "panelContractSubMenu";
-            this.panelContractSubMenu.Size = new System.Drawing.Size(233, 41);
+            this.panelContractSubMenu.Size = new System.Drawing.Size(233, 29);
             this.panelContractSubMenu.TabIndex = 11;
             // 
-            // button1
+            // iconButton1
             // 
-            this.button1.BackColor = System.Drawing.Color.DimGray;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(233, 40);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Подменю";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
+            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton1.IconSize = 18;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(0, 0);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.iconButton1.Size = new System.Drawing.Size(233, 29);
+            this.iconButton1.TabIndex = 1;
+            this.iconButton1.Text = "Подменю";
+            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = false;
             // 
             // buttonContract
             // 
             this.buttonContract.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonContract.FlatAppearance.BorderSize = 0;
-            this.buttonContract.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonContract.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.buttonContract.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonContract.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
             this.buttonContract.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonContract.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonContract.IconChar = FontAwesome.Sharp.IconChar.FileContract;
@@ -432,7 +486,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonContract.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.buttonContract.IconSize = 32;
             this.buttonContract.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonContract.Location = new System.Drawing.Point(0, 186);
+            this.buttonContract.Location = new System.Drawing.Point(0, 174);
             this.buttonContract.Name = "buttonContract";
             this.buttonContract.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.buttonContract.Size = new System.Drawing.Size(233, 45);
@@ -448,31 +502,38 @@ namespace Orion_2._0_New_Design.Forms
             this.panelArchiveSubMenu.Controls.Add(this.button9);
             this.panelArchiveSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelArchiveSubMenu.Location = new System.Drawing.Point(0, 145);
+            this.panelArchiveSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelArchiveSubMenu.Name = "panelArchiveSubMenu";
-            this.panelArchiveSubMenu.Size = new System.Drawing.Size(233, 41);
+            this.panelArchiveSubMenu.Size = new System.Drawing.Size(233, 29);
             this.panelArchiveSubMenu.TabIndex = 9;
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.DimGray;
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
             this.button9.Dock = System.Windows.Forms.DockStyle.Top;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button9.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.button9.IconColor = System.Drawing.Color.Gainsboro;
+            this.button9.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.button9.IconSize = 18;
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button9.Location = new System.Drawing.Point(0, 0);
             this.button9.Name = "button9";
             this.button9.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(233, 40);
+            this.button9.Size = new System.Drawing.Size(233, 29);
             this.button9.TabIndex = 0;
             this.button9.Text = "Подменю";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button9.UseVisualStyleBackColor = false;
             // 
             // buttonArchive
             // 
             this.buttonArchive.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonArchive.FlatAppearance.BorderSize = 0;
-            this.buttonArchive.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonArchive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.buttonArchive.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonArchive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
             this.buttonArchive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonArchive.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonArchive.IconChar = FontAwesome.Sharp.IconChar.Archive;
@@ -501,7 +562,7 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelTop
             // 
-            this.panelTop.BackColor = System.Drawing.Color.DimGray;
+            this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
             this.panelTop.Controls.Add(this.titleCurrentChildForm);
             this.panelTop.Controls.Add(this.iconCurrentChildForm);
             this.panelTop.Controls.Add(this.iconMaximazeWindow);
@@ -528,7 +589,7 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.iconCurrentChildForm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.iconCurrentChildForm.BackColor = System.Drawing.Color.DimGray;
+            this.iconCurrentChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
             this.iconCurrentChildForm.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconCurrentChildForm.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.iconCurrentChildForm.IconColor = System.Drawing.Color.Gainsboro;
@@ -545,7 +606,7 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.iconMaximazeWindow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconMaximazeWindow.BackColor = System.Drawing.Color.DimGray;
+            this.iconMaximazeWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
             this.iconMaximazeWindow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconMaximazeWindow.ForeColor = System.Drawing.SystemColors.ControlText;
             this.iconMaximazeWindow.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
@@ -566,7 +627,7 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.iconMinimizeWindow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconMinimizeWindow.BackColor = System.Drawing.Color.DimGray;
+            this.iconMinimizeWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
             this.iconMinimizeWindow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconMinimizeWindow.ForeColor = System.Drawing.SystemColors.ControlText;
             this.iconMinimizeWindow.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
@@ -587,7 +648,7 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.iconCloseWindow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconCloseWindow.BackColor = System.Drawing.Color.DimGray;
+            this.iconCloseWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
             this.iconCloseWindow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconCloseWindow.ForeColor = System.Drawing.SystemColors.ControlText;
             this.iconCloseWindow.IconChar = FontAwesome.Sharp.IconChar.Times;
@@ -606,12 +667,45 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelChildForm
             // 
+            this.panelChildForm.Controls.Add(this.button12);
+            this.panelChildForm.Controls.Add(this.button11);
+            this.panelChildForm.Controls.Add(this.button10);
             this.panelChildForm.Controls.Add(this.button8);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(250, 55);
             this.panelChildForm.Name = "panelChildForm";
             this.panelChildForm.Size = new System.Drawing.Size(899, 545);
             this.panelChildForm.TabIndex = 2;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(61, 198);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 3;
+            this.button12.Text = "button12";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(61, 157);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 23);
+            this.button11.TabIndex = 2;
+            this.button11.Text = "button11";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(61, 112);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 23);
+            this.button10.TabIndex = 1;
+            this.button10.Text = "button10";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button8
             // 
@@ -623,11 +717,16 @@ namespace Orion_2._0_New_Design.Forms
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
+            // timerSubMenu
+            // 
+            this.timerSubMenu.Interval = 10;
+            this.timerSubMenu.Tick += new System.EventHandler(this.timerSubMenu_Tick);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
             this.ClientSize = new System.Drawing.Size(1149, 600);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelTop);
@@ -663,35 +762,39 @@ namespace Orion_2._0_New_Design.Forms
         private FontAwesome.Sharp.IconButton buttonArchive;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Panel panelArchiveSubMenu;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Panel panelTop;
         private System.Windows.Forms.Panel panelChildForm;
         private FontAwesome.Sharp.IconButton buttonContract;
         private System.Windows.Forms.Panel panelSearchSubMenu;
-        private System.Windows.Forms.Button button7;
         private FontAwesome.Sharp.IconButton buttonSearch;
         private System.Windows.Forms.Panel panelEconomicSubMenu;
-        private System.Windows.Forms.Button button6;
         private FontAwesome.Sharp.IconButton buttonEconomy;
         private System.Windows.Forms.Panel panelGroupSubMenu;
-        private System.Windows.Forms.Button button5;
         private FontAwesome.Sharp.IconButton buttonMakeGroupe;
         private System.Windows.Forms.Panel panelStudSubMenu;
-        private System.Windows.Forms.Button button4;
         private FontAwesome.Sharp.IconButton buttonStudie;
         private System.Windows.Forms.Panel panelSettingsSubMenu;
-        private System.Windows.Forms.Button button3;
         private FontAwesome.Sharp.IconButton buttonSettings;
         private System.Windows.Forms.Panel panelMetodSubMenu;
-        private System.Windows.Forms.Button button2;
         private FontAwesome.Sharp.IconButton buttonMetod;
         private System.Windows.Forms.Panel panelContractSubMenu;
-        private System.Windows.Forms.Button button1;
         private FontAwesome.Sharp.IconPictureBox iconMaximazeWindow;
         private FontAwesome.Sharp.IconPictureBox iconMinimizeWindow;
         private FontAwesome.Sharp.IconPictureBox iconCloseWindow;
         private FontAwesome.Sharp.IconPictureBox iconCurrentChildForm;
         private System.Windows.Forms.Label titleCurrentChildForm;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button10;
+        private FontAwesome.Sharp.IconButton button9;
+        private System.Windows.Forms.Timer timerSubMenu;
+        private FontAwesome.Sharp.IconButton iconButton7;
+        private FontAwesome.Sharp.IconButton iconButton6;
+        private FontAwesome.Sharp.IconButton iconButton5;
+        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton iconButton2;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }
