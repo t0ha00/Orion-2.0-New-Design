@@ -68,3 +68,5 @@ D:\Projects\Orion 2.0 New Design\Orion 2.0 New Design\obj\Debug\Orion 2.0 New De
 D:\Projects\Orion 2.0 New Design\Orion 2.0 New Design\obj\Debug\Orion 2.0 New Design.pdb
 D:\Projects\Orion 2.0 New Design\Orion 2.0 New Design\bin\Debug\FontAwesome.Sharp.dll
 D:\Projects\Orion 2.0 New Design\Orion 2.0 New Design\obj\Debug\Orion_2._0_New_Design.Forms.Form_Alert.resources
+D:\Projects\Orion 2.0 New Design\Orion 2.0 New Design\obj\Debug\Orion_2._0_New_Design.Forms.LoginForm.resources
+D:\Projects\Orion 2.0 New Design\Orion 2.0 New Design\obj\Debug\Orion_2._0_New_Design.CustomControls.MyTextBox.resources

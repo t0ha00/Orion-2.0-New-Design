@@ -17,9 +17,10 @@ namespace Orion_2._0_New_Design
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             if (Classes.DataBank.User == null)
-            { Application.Run(new Forms.FrmMain()); }
+                Application.Run(new Forms.LoginForm());
             else
-            { Application.Run(new Forms.FrmMain()); }
+                Application.Run(new Forms.FrmMain());
+
         }
     }
 }

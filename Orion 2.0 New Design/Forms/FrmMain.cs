@@ -36,7 +36,7 @@ namespace Orion_2._0_New_Design.Forms
                 DisableButton();
                 predCurrentBtn = currentBtn;
                 currentBtn = (IconButton)senderBtn;
-                currentBtn.BackColor = Color.FromArgb(37, 36, 81);
+                currentBtn.BackColor = Color.FromArgb(42, 141, 212);
 
                 panelSubmenuCurr = panelSubMenu;
                 
@@ -50,7 +50,7 @@ namespace Orion_2._0_New_Design.Forms
         {
             if (currentBtn != null)
             {
-                currentBtn.BackColor = Color.FromArgb(38, 43, 72);
+                currentBtn.BackColor = Color.FromArgb(0, 114, 198);
                 currentBtn.ForeColor = Color.Gainsboro;
                 currentBtn.TextAlign = ContentAlignment.MiddleLeft;
                 currentBtn.IconColor = Color.Gainsboro;
@@ -181,13 +181,26 @@ namespace Orion_2._0_New_Design.Forms
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
-
+        
+        //Переменные для запоминания положения окна перед разворачиванием
+        int LX, LY, SW, SH;
         private void iconPictureBox3_Click(object sender, EventArgs e)
         {
-            if (WindowState == FormWindowState.Normal)
-                WindowState = FormWindowState.Maximized;
-            else
-                WindowState = FormWindowState.Normal;
+            if (this.Size != Screen.PrimaryScreen.WorkingArea.Size)
+            {
+                SW = this.Size.Width;
+                SH = this.Size.Height;
+                LX = this.Location.X;
+                LY = this.Location.Y;
+                //    WindowState = FormWindowState.Maximized;
+                this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+                this.Location = Screen.PrimaryScreen.WorkingArea.Location;
+            }
+            else {
+                //    WindowState = FormWindowState.Normal;
+                this.Size = new Size(SW, SH);
+                this.Location = new Point(LX, LY);
+            }
         }
 
         private void iconPictureBox2_Click(object sender, EventArgs e)
@@ -249,5 +262,6 @@ namespace Orion_2._0_New_Design.Forms
         {
             this.Alert("Success", Form_Alert.enmType.Success);
         }
+        
     }
 }

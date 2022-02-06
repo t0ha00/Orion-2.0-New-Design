@@ -63,10 +63,6 @@ namespace Orion_2._0_New_Design.Forms
             this.iconMinimizeWindow = new FontAwesome.Sharp.IconPictureBox();
             this.iconCloseWindow = new FontAwesome.Sharp.IconPictureBox();
             this.panelChildForm = new System.Windows.Forms.Panel();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.timerSubMenu = new System.Windows.Forms.Timer(this.components);
             this.panelSideMenu.SuspendLayout();
             this.panelSearchSubMenu.SuspendLayout();
@@ -82,13 +78,12 @@ namespace Orion_2._0_New_Design.Forms
             ((System.ComponentModel.ISupportInitialize)(this.iconMaximazeWindow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMinimizeWindow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCloseWindow)).BeginInit();
-            this.panelChildForm.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSideMenu
             // 
             this.panelSideMenu.AutoScroll = true;
-            this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(43)))), ((int)(((byte)(72)))));
+            this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.panelSideMenu.Controls.Add(this.panelSearchSubMenu);
             this.panelSideMenu.Controls.Add(this.buttonSearch);
             this.panelSideMenu.Controls.Add(this.panelEconomicSubMenu);
@@ -124,9 +119,13 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // iconButton7
             // 
-            this.iconButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconButton7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton7.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.iconButton7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.iconButton7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.iconButton7.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Circle;
             this.iconButton7.IconColor = System.Drawing.Color.Gainsboro;
@@ -147,9 +146,11 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.buttonSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonSearch.FlatAppearance.BorderSize = 0;
-            this.buttonSearch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
-            this.buttonSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonSearch.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.buttonSearch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.buttonSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.buttonSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSearch.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSearch.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonSearch.IconChar = FontAwesome.Sharp.IconChar.Search;
             this.buttonSearch.IconColor = System.Drawing.Color.Gainsboro;
@@ -179,9 +180,13 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // iconButton6
             // 
-            this.iconButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconButton6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton6.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.iconButton6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.iconButton6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.iconButton6.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.Circle;
             this.iconButton6.IconColor = System.Drawing.Color.Gainsboro;
@@ -202,9 +207,11 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.buttonEconomy.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonEconomy.FlatAppearance.BorderSize = 0;
-            this.buttonEconomy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
-            this.buttonEconomy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonEconomy.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.buttonEconomy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.buttonEconomy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.buttonEconomy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEconomy.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonEconomy.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonEconomy.IconChar = FontAwesome.Sharp.IconChar.RubleSign;
             this.buttonEconomy.IconColor = System.Drawing.Color.Gainsboro;
@@ -234,9 +241,12 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // iconButton5
             // 
-            this.iconButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.iconButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.iconButton5.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.Circle;
             this.iconButton5.IconColor = System.Drawing.Color.Gainsboro;
@@ -257,9 +267,11 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.buttonMakeGroupe.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonMakeGroupe.FlatAppearance.BorderSize = 0;
-            this.buttonMakeGroupe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
-            this.buttonMakeGroupe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonMakeGroupe.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.buttonMakeGroupe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.buttonMakeGroupe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.buttonMakeGroupe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMakeGroupe.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonMakeGroupe.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonMakeGroupe.IconChar = FontAwesome.Sharp.IconChar.UserFriends;
             this.buttonMakeGroupe.IconColor = System.Drawing.Color.Gainsboro;
@@ -289,9 +301,13 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // iconButton4
             // 
-            this.iconButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconButton4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.iconButton4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.iconButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.iconButton4.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.Circle;
             this.iconButton4.IconColor = System.Drawing.Color.Gainsboro;
@@ -312,9 +328,11 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.buttonStudie.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonStudie.FlatAppearance.BorderSize = 0;
-            this.buttonStudie.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
-            this.buttonStudie.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonStudie.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.buttonStudie.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.buttonStudie.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.buttonStudie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonStudie.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonStudie.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonStudie.IconChar = FontAwesome.Sharp.IconChar.UserGraduate;
             this.buttonStudie.IconColor = System.Drawing.Color.Gainsboro;
@@ -344,9 +362,13 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // iconButton3
             // 
-            this.iconButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.iconButton3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.iconButton3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.iconButton3.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Circle;
             this.iconButton3.IconColor = System.Drawing.Color.Gainsboro;
@@ -367,9 +389,11 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.buttonSettings.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonSettings.FlatAppearance.BorderSize = 0;
-            this.buttonSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
-            this.buttonSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonSettings.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.buttonSettings.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.buttonSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.buttonSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSettings.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSettings.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonSettings.IconChar = FontAwesome.Sharp.IconChar.Cog;
             this.buttonSettings.IconColor = System.Drawing.Color.Gainsboro;
@@ -399,9 +423,13 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // iconButton2
             // 
-            this.iconButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconButton2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.iconButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.iconButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.iconButton2.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Circle;
             this.iconButton2.IconColor = System.Drawing.Color.Gainsboro;
@@ -422,9 +450,11 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.buttonMetod.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonMetod.FlatAppearance.BorderSize = 0;
-            this.buttonMetod.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
-            this.buttonMetod.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonMetod.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.buttonMetod.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.buttonMetod.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.buttonMetod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMetod.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonMetod.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonMetod.IconChar = FontAwesome.Sharp.IconChar.PuzzlePiece;
             this.buttonMetod.IconColor = System.Drawing.Color.Gainsboro;
@@ -454,9 +484,13 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // iconButton1
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.iconButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.iconButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.iconButton1.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Circle;
             this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
@@ -477,9 +511,11 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.buttonContract.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonContract.FlatAppearance.BorderSize = 0;
-            this.buttonContract.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
-            this.buttonContract.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonContract.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.buttonContract.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.buttonContract.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.buttonContract.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonContract.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonContract.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonContract.IconChar = FontAwesome.Sharp.IconChar.FileContract;
             this.buttonContract.IconColor = System.Drawing.Color.Gainsboro;
@@ -509,9 +545,12 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.button9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button9.ForeColor = System.Drawing.Color.Gainsboro;
             this.button9.IconChar = FontAwesome.Sharp.IconChar.Circle;
             this.button9.IconColor = System.Drawing.Color.Gainsboro;
@@ -532,9 +571,11 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.buttonArchive.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonArchive.FlatAppearance.BorderSize = 0;
-            this.buttonArchive.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
-            this.buttonArchive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.buttonArchive.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(141)))), ((int)(((byte)(212)))));
+            this.buttonArchive.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
+            this.buttonArchive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(103)))), ((int)(((byte)(176)))));
             this.buttonArchive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonArchive.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonArchive.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonArchive.IconChar = FontAwesome.Sharp.IconChar.Archive;
             this.buttonArchive.IconColor = System.Drawing.Color.Gainsboro;
@@ -562,7 +603,7 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelTop
             // 
-            this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.panelTop.Controls.Add(this.titleCurrentChildForm);
             this.panelTop.Controls.Add(this.iconCurrentChildForm);
             this.panelTop.Controls.Add(this.iconMaximazeWindow);
@@ -578,10 +619,11 @@ namespace Orion_2._0_New_Design.Forms
             // titleCurrentChildForm
             // 
             this.titleCurrentChildForm.AutoSize = true;
-            this.titleCurrentChildForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.titleCurrentChildForm.Location = new System.Drawing.Point(58, 19);
+            this.titleCurrentChildForm.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.titleCurrentChildForm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.titleCurrentChildForm.Location = new System.Drawing.Point(58, 12);
             this.titleCurrentChildForm.Name = "titleCurrentChildForm";
-            this.titleCurrentChildForm.Size = new System.Drawing.Size(150, 18);
+            this.titleCurrentChildForm.Size = new System.Drawing.Size(200, 28);
             this.titleCurrentChildForm.TabIndex = 1;
             this.titleCurrentChildForm.Text = "Домашняя страница";
             // 
@@ -589,7 +631,7 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.iconCurrentChildForm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.iconCurrentChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconCurrentChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconCurrentChildForm.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconCurrentChildForm.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.iconCurrentChildForm.IconColor = System.Drawing.Color.Gainsboro;
@@ -606,16 +648,16 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.iconMaximazeWindow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconMaximazeWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconMaximazeWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconMaximazeWindow.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconMaximazeWindow.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconMaximazeWindow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.iconMaximazeWindow.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
-            this.iconMaximazeWindow.IconColor = System.Drawing.SystemColors.ControlText;
+            this.iconMaximazeWindow.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.iconMaximazeWindow.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMaximazeWindow.IconSize = 39;
-            this.iconMaximazeWindow.Location = new System.Drawing.Point(769, 9);
+            this.iconMaximazeWindow.IconSize = 28;
+            this.iconMaximazeWindow.Location = new System.Drawing.Point(819, 6);
             this.iconMaximazeWindow.Name = "iconMaximazeWindow";
-            this.iconMaximazeWindow.Size = new System.Drawing.Size(56, 39);
+            this.iconMaximazeWindow.Size = new System.Drawing.Size(37, 28);
             this.iconMaximazeWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconMaximazeWindow.TabIndex = 2;
             this.iconMaximazeWindow.TabStop = false;
@@ -627,16 +669,16 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.iconMinimizeWindow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconMinimizeWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconMinimizeWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconMinimizeWindow.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconMinimizeWindow.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconMinimizeWindow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.iconMinimizeWindow.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
-            this.iconMinimizeWindow.IconColor = System.Drawing.SystemColors.ControlText;
+            this.iconMinimizeWindow.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.iconMinimizeWindow.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMinimizeWindow.IconSize = 39;
-            this.iconMinimizeWindow.Location = new System.Drawing.Point(707, 9);
+            this.iconMinimizeWindow.IconSize = 28;
+            this.iconMinimizeWindow.Location = new System.Drawing.Point(776, 6);
             this.iconMinimizeWindow.Name = "iconMinimizeWindow";
-            this.iconMinimizeWindow.Size = new System.Drawing.Size(56, 39);
+            this.iconMinimizeWindow.Size = new System.Drawing.Size(37, 28);
             this.iconMinimizeWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconMinimizeWindow.TabIndex = 1;
             this.iconMinimizeWindow.TabStop = false;
@@ -648,16 +690,16 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.iconCloseWindow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconCloseWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(79)))), ((int)(((byte)(100)))));
+            this.iconCloseWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
             this.iconCloseWindow.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconCloseWindow.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconCloseWindow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.iconCloseWindow.IconChar = FontAwesome.Sharp.IconChar.Times;
-            this.iconCloseWindow.IconColor = System.Drawing.SystemColors.ControlText;
+            this.iconCloseWindow.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.iconCloseWindow.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconCloseWindow.IconSize = 39;
-            this.iconCloseWindow.Location = new System.Drawing.Point(831, 9);
+            this.iconCloseWindow.IconSize = 28;
+            this.iconCloseWindow.Location = new System.Drawing.Point(862, 6);
             this.iconCloseWindow.Name = "iconCloseWindow";
-            this.iconCloseWindow.Size = new System.Drawing.Size(56, 39);
+            this.iconCloseWindow.Size = new System.Drawing.Size(37, 28);
             this.iconCloseWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconCloseWindow.TabIndex = 0;
             this.iconCloseWindow.TabStop = false;
@@ -667,55 +709,12 @@ namespace Orion_2._0_New_Design.Forms
             // 
             // panelChildForm
             // 
-            this.panelChildForm.Controls.Add(this.button12);
-            this.panelChildForm.Controls.Add(this.button11);
-            this.panelChildForm.Controls.Add(this.button10);
-            this.panelChildForm.Controls.Add(this.button8);
+            this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(250, 55);
             this.panelChildForm.Name = "panelChildForm";
             this.panelChildForm.Size = new System.Drawing.Size(899, 545);
             this.panelChildForm.TabIndex = 2;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(61, 198);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 3;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(61, 157);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 2;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(61, 112);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 1;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(61, 56);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // timerSubMenu
             // 
@@ -726,7 +725,7 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(31)))), ((int)(((byte)(56)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(1149, 600);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelTop);
@@ -751,7 +750,6 @@ namespace Orion_2._0_New_Design.Forms
             ((System.ComponentModel.ISupportInitialize)(this.iconMaximazeWindow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMinimizeWindow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCloseWindow)).EndInit();
-            this.panelChildForm.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -783,10 +781,6 @@ namespace Orion_2._0_New_Design.Forms
         private FontAwesome.Sharp.IconPictureBox iconCloseWindow;
         private FontAwesome.Sharp.IconPictureBox iconCurrentChildForm;
         private System.Windows.Forms.Label titleCurrentChildForm;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
         private FontAwesome.Sharp.IconButton button9;
         private System.Windows.Forms.Timer timerSubMenu;
         private FontAwesome.Sharp.IconButton iconButton7;
