@@ -104,7 +104,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(250, 600);
+            this.panelSideMenu.Size = new System.Drawing.Size(158, 600);
             this.panelSideMenu.TabIndex = 0;
             // 
             // panelSearchSubMenu
@@ -114,7 +114,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelSearchSubMenu.Location = new System.Drawing.Point(0, 663);
             this.panelSearchSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelSearchSubMenu.Name = "panelSearchSubMenu";
-            this.panelSearchSubMenu.Size = new System.Drawing.Size(233, 29);
+            this.panelSearchSubMenu.Size = new System.Drawing.Size(141, 29);
             this.panelSearchSubMenu.TabIndex = 23;
             // 
             // iconButton7
@@ -135,7 +135,7 @@ namespace Orion_2._0_New_Design.Forms
             this.iconButton7.Location = new System.Drawing.Point(0, 0);
             this.iconButton7.Name = "iconButton7";
             this.iconButton7.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.iconButton7.Size = new System.Drawing.Size(233, 29);
+            this.iconButton7.Size = new System.Drawing.Size(141, 29);
             this.iconButton7.TabIndex = 2;
             this.iconButton7.Text = "Подменю";
             this.iconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -160,7 +160,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonSearch.Location = new System.Drawing.Point(0, 618);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonSearch.Size = new System.Drawing.Size(233, 45);
+            this.buttonSearch.Size = new System.Drawing.Size(141, 45);
             this.buttonSearch.TabIndex = 22;
             this.buttonSearch.Text = "Поиск";
             this.buttonSearch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -175,7 +175,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelEconomicSubMenu.Location = new System.Drawing.Point(0, 589);
             this.panelEconomicSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelEconomicSubMenu.Name = "panelEconomicSubMenu";
-            this.panelEconomicSubMenu.Size = new System.Drawing.Size(233, 29);
+            this.panelEconomicSubMenu.Size = new System.Drawing.Size(141, 29);
             this.panelEconomicSubMenu.TabIndex = 21;
             // 
             // iconButton6
@@ -196,7 +196,7 @@ namespace Orion_2._0_New_Design.Forms
             this.iconButton6.Location = new System.Drawing.Point(0, 0);
             this.iconButton6.Name = "iconButton6";
             this.iconButton6.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.iconButton6.Size = new System.Drawing.Size(233, 29);
+            this.iconButton6.Size = new System.Drawing.Size(141, 29);
             this.iconButton6.TabIndex = 2;
             this.iconButton6.Text = "Подменю";
             this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -221,7 +221,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonEconomy.Location = new System.Drawing.Point(0, 544);
             this.buttonEconomy.Name = "buttonEconomy";
             this.buttonEconomy.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonEconomy.Size = new System.Drawing.Size(233, 45);
+            this.buttonEconomy.Size = new System.Drawing.Size(141, 45);
             this.buttonEconomy.TabIndex = 20;
             this.buttonEconomy.Text = "Экономика";
             this.buttonEconomy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -236,7 +236,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelGroupSubMenu.Location = new System.Drawing.Point(0, 515);
             this.panelGroupSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelGroupSubMenu.Name = "panelGroupSubMenu";
-            this.panelGroupSubMenu.Size = new System.Drawing.Size(233, 29);
+            this.panelGroupSubMenu.Size = new System.Drawing.Size(141, 29);
             this.panelGroupSubMenu.TabIndex = 19;
             // 
             // iconButton5
@@ -256,7 +256,7 @@ namespace Orion_2._0_New_Design.Forms
             this.iconButton5.Location = new System.Drawing.Point(0, 0);
             this.iconButton5.Name = "iconButton5";
             this.iconButton5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.iconButton5.Size = new System.Drawing.Size(233, 29);
+            this.iconButton5.Size = new System.Drawing.Size(141, 29);
             this.iconButton5.TabIndex = 2;
             this.iconButton5.Text = "Подменю";
             this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -281,7 +281,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonMakeGroupe.Location = new System.Drawing.Point(0, 470);
             this.buttonMakeGroupe.Name = "buttonMakeGroupe";
             this.buttonMakeGroupe.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonMakeGroupe.Size = new System.Drawing.Size(233, 45);
+            this.buttonMakeGroupe.Size = new System.Drawing.Size(141, 45);
             this.buttonMakeGroupe.TabIndex = 18;
             this.buttonMakeGroupe.Text = "Оформление групп";
             this.buttonMakeGroupe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -296,7 +296,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelStudSubMenu.Location = new System.Drawing.Point(0, 441);
             this.panelStudSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelStudSubMenu.Name = "panelStudSubMenu";
-            this.panelStudSubMenu.Size = new System.Drawing.Size(233, 29);
+            this.panelStudSubMenu.Size = new System.Drawing.Size(141, 29);
             this.panelStudSubMenu.TabIndex = 17;
             // 
             // iconButton4
@@ -317,7 +317,7 @@ namespace Orion_2._0_New_Design.Forms
             this.iconButton4.Location = new System.Drawing.Point(0, 0);
             this.iconButton4.Name = "iconButton4";
             this.iconButton4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.iconButton4.Size = new System.Drawing.Size(233, 29);
+            this.iconButton4.Size = new System.Drawing.Size(141, 29);
             this.iconButton4.TabIndex = 2;
             this.iconButton4.Text = "Подменю";
             this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -342,7 +342,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonStudie.Location = new System.Drawing.Point(0, 396);
             this.buttonStudie.Name = "buttonStudie";
             this.buttonStudie.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonStudie.Size = new System.Drawing.Size(233, 45);
+            this.buttonStudie.Size = new System.Drawing.Size(141, 45);
             this.buttonStudie.TabIndex = 16;
             this.buttonStudie.Text = "Обучение";
             this.buttonStudie.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -357,7 +357,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelSettingsSubMenu.Location = new System.Drawing.Point(0, 367);
             this.panelSettingsSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelSettingsSubMenu.Name = "panelSettingsSubMenu";
-            this.panelSettingsSubMenu.Size = new System.Drawing.Size(233, 29);
+            this.panelSettingsSubMenu.Size = new System.Drawing.Size(141, 29);
             this.panelSettingsSubMenu.TabIndex = 15;
             // 
             // iconButton3
@@ -378,7 +378,7 @@ namespace Orion_2._0_New_Design.Forms
             this.iconButton3.Location = new System.Drawing.Point(0, 0);
             this.iconButton3.Name = "iconButton3";
             this.iconButton3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.iconButton3.Size = new System.Drawing.Size(233, 29);
+            this.iconButton3.Size = new System.Drawing.Size(141, 29);
             this.iconButton3.TabIndex = 1;
             this.iconButton3.Text = "Подменю";
             this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -403,7 +403,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonSettings.Location = new System.Drawing.Point(0, 322);
             this.buttonSettings.Name = "buttonSettings";
             this.buttonSettings.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonSettings.Size = new System.Drawing.Size(233, 45);
+            this.buttonSettings.Size = new System.Drawing.Size(141, 45);
             this.buttonSettings.TabIndex = 14;
             this.buttonSettings.Text = "Настройки";
             this.buttonSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -418,7 +418,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelMetodSubMenu.Location = new System.Drawing.Point(0, 293);
             this.panelMetodSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelMetodSubMenu.Name = "panelMetodSubMenu";
-            this.panelMetodSubMenu.Size = new System.Drawing.Size(233, 29);
+            this.panelMetodSubMenu.Size = new System.Drawing.Size(141, 29);
             this.panelMetodSubMenu.TabIndex = 13;
             // 
             // iconButton2
@@ -439,7 +439,7 @@ namespace Orion_2._0_New_Design.Forms
             this.iconButton2.Location = new System.Drawing.Point(0, 0);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.iconButton2.Size = new System.Drawing.Size(233, 29);
+            this.iconButton2.Size = new System.Drawing.Size(141, 29);
             this.iconButton2.TabIndex = 1;
             this.iconButton2.Text = "Подменю";
             this.iconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -464,7 +464,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonMetod.Location = new System.Drawing.Point(0, 248);
             this.buttonMetod.Name = "buttonMetod";
             this.buttonMetod.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonMetod.Size = new System.Drawing.Size(233, 45);
+            this.buttonMetod.Size = new System.Drawing.Size(141, 45);
             this.buttonMetod.TabIndex = 12;
             this.buttonMetod.Text = "Методология";
             this.buttonMetod.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -479,7 +479,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelContractSubMenu.Location = new System.Drawing.Point(0, 219);
             this.panelContractSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelContractSubMenu.Name = "panelContractSubMenu";
-            this.panelContractSubMenu.Size = new System.Drawing.Size(233, 29);
+            this.panelContractSubMenu.Size = new System.Drawing.Size(141, 29);
             this.panelContractSubMenu.TabIndex = 11;
             // 
             // iconButton1
@@ -500,7 +500,7 @@ namespace Orion_2._0_New_Design.Forms
             this.iconButton1.Location = new System.Drawing.Point(0, 0);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.iconButton1.Size = new System.Drawing.Size(233, 29);
+            this.iconButton1.Size = new System.Drawing.Size(141, 29);
             this.iconButton1.TabIndex = 1;
             this.iconButton1.Text = "Подменю";
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -525,7 +525,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonContract.Location = new System.Drawing.Point(0, 174);
             this.buttonContract.Name = "buttonContract";
             this.buttonContract.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonContract.Size = new System.Drawing.Size(233, 45);
+            this.buttonContract.Size = new System.Drawing.Size(141, 45);
             this.buttonContract.TabIndex = 10;
             this.buttonContract.Text = "Договора";
             this.buttonContract.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -540,7 +540,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelArchiveSubMenu.Location = new System.Drawing.Point(0, 145);
             this.panelArchiveSubMenu.MaximumSize = new System.Drawing.Size(233, 29);
             this.panelArchiveSubMenu.Name = "panelArchiveSubMenu";
-            this.panelArchiveSubMenu.Size = new System.Drawing.Size(233, 29);
+            this.panelArchiveSubMenu.Size = new System.Drawing.Size(141, 29);
             this.panelArchiveSubMenu.TabIndex = 9;
             // 
             // button9
@@ -560,7 +560,7 @@ namespace Orion_2._0_New_Design.Forms
             this.button9.Location = new System.Drawing.Point(0, 0);
             this.button9.Name = "button9";
             this.button9.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(233, 29);
+            this.button9.Size = new System.Drawing.Size(141, 29);
             this.button9.TabIndex = 0;
             this.button9.Text = "Подменю";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -585,7 +585,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonArchive.Location = new System.Drawing.Point(0, 100);
             this.buttonArchive.Name = "buttonArchive";
             this.buttonArchive.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonArchive.Size = new System.Drawing.Size(233, 45);
+            this.buttonArchive.Size = new System.Drawing.Size(141, 45);
             this.buttonArchive.TabIndex = 1;
             this.buttonArchive.Text = "Архив";
             this.buttonArchive.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -598,7 +598,7 @@ namespace Orion_2._0_New_Design.Forms
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(233, 100);
+            this.panelLogo.Size = new System.Drawing.Size(141, 100);
             this.panelLogo.TabIndex = 0;
             // 
             // panelTop
@@ -610,9 +610,9 @@ namespace Orion_2._0_New_Design.Forms
             this.panelTop.Controls.Add(this.iconMinimizeWindow);
             this.panelTop.Controls.Add(this.iconCloseWindow);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTop.Location = new System.Drawing.Point(250, 0);
+            this.panelTop.Location = new System.Drawing.Point(158, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(899, 55);
+            this.panelTop.Size = new System.Drawing.Size(991, 49);
             this.panelTop.TabIndex = 1;
             this.panelTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTop_MouseDown);
             // 
@@ -621,7 +621,7 @@ namespace Orion_2._0_New_Design.Forms
             this.titleCurrentChildForm.AutoSize = true;
             this.titleCurrentChildForm.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.titleCurrentChildForm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.titleCurrentChildForm.Location = new System.Drawing.Point(58, 12);
+            this.titleCurrentChildForm.Location = new System.Drawing.Point(58, 4);
             this.titleCurrentChildForm.Name = "titleCurrentChildForm";
             this.titleCurrentChildForm.Size = new System.Drawing.Size(200, 28);
             this.titleCurrentChildForm.TabIndex = 1;
@@ -636,10 +636,10 @@ namespace Orion_2._0_New_Design.Forms
             this.iconCurrentChildForm.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.iconCurrentChildForm.IconColor = System.Drawing.Color.Gainsboro;
             this.iconCurrentChildForm.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconCurrentChildForm.IconSize = 46;
-            this.iconCurrentChildForm.Location = new System.Drawing.Point(6, 9);
+            this.iconCurrentChildForm.IconSize = 43;
+            this.iconCurrentChildForm.Location = new System.Drawing.Point(6, 0);
             this.iconCurrentChildForm.Name = "iconCurrentChildForm";
-            this.iconCurrentChildForm.Size = new System.Drawing.Size(46, 46);
+            this.iconCurrentChildForm.Size = new System.Drawing.Size(46, 43);
             this.iconCurrentChildForm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.iconCurrentChildForm.TabIndex = 3;
             this.iconCurrentChildForm.TabStop = false;
@@ -654,10 +654,10 @@ namespace Orion_2._0_New_Design.Forms
             this.iconMaximazeWindow.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
             this.iconMaximazeWindow.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.iconMaximazeWindow.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMaximazeWindow.IconSize = 28;
-            this.iconMaximazeWindow.Location = new System.Drawing.Point(819, 6);
+            this.iconMaximazeWindow.IconSize = 26;
+            this.iconMaximazeWindow.Location = new System.Drawing.Point(911, 6);
             this.iconMaximazeWindow.Name = "iconMaximazeWindow";
-            this.iconMaximazeWindow.Size = new System.Drawing.Size(37, 28);
+            this.iconMaximazeWindow.Size = new System.Drawing.Size(37, 26);
             this.iconMaximazeWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconMaximazeWindow.TabIndex = 2;
             this.iconMaximazeWindow.TabStop = false;
@@ -675,10 +675,10 @@ namespace Orion_2._0_New_Design.Forms
             this.iconMinimizeWindow.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
             this.iconMinimizeWindow.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.iconMinimizeWindow.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconMinimizeWindow.IconSize = 28;
-            this.iconMinimizeWindow.Location = new System.Drawing.Point(776, 6);
+            this.iconMinimizeWindow.IconSize = 26;
+            this.iconMinimizeWindow.Location = new System.Drawing.Point(871, 6);
             this.iconMinimizeWindow.Name = "iconMinimizeWindow";
-            this.iconMinimizeWindow.Size = new System.Drawing.Size(37, 28);
+            this.iconMinimizeWindow.Size = new System.Drawing.Size(34, 26);
             this.iconMinimizeWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconMinimizeWindow.TabIndex = 1;
             this.iconMinimizeWindow.TabStop = false;
@@ -696,10 +696,10 @@ namespace Orion_2._0_New_Design.Forms
             this.iconCloseWindow.IconChar = FontAwesome.Sharp.IconChar.Times;
             this.iconCloseWindow.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.iconCloseWindow.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconCloseWindow.IconSize = 28;
-            this.iconCloseWindow.Location = new System.Drawing.Point(862, 6);
+            this.iconCloseWindow.IconSize = 26;
+            this.iconCloseWindow.Location = new System.Drawing.Point(954, 6);
             this.iconCloseWindow.Name = "iconCloseWindow";
-            this.iconCloseWindow.Size = new System.Drawing.Size(37, 28);
+            this.iconCloseWindow.Size = new System.Drawing.Size(37, 26);
             this.iconCloseWindow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.iconCloseWindow.TabIndex = 0;
             this.iconCloseWindow.TabStop = false;
@@ -711,9 +711,9 @@ namespace Orion_2._0_New_Design.Forms
             // 
             this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(250, 55);
+            this.panelChildForm.Location = new System.Drawing.Point(158, 49);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(899, 545);
+            this.panelChildForm.Size = new System.Drawing.Size(991, 551);
             this.panelChildForm.TabIndex = 2;
             // 
             // timerSubMenu

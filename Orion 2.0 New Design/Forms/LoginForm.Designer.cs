@@ -30,14 +30,14 @@ namespace Orion_2._0_New_Design.Forms
         private void InitializeComponent()
         {
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.labelEntry = new System.Windows.Forms.Label();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.checkBoxRemember = new System.Windows.Forms.CheckBox();
             this.myTextBoxPassword = new Orion_2._0_New_Design.CustomControls.MyTextBox();
             this.myTextBoxLogin = new Orion_2._0_New_Design.CustomControls.MyTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // iconPictureBox1
@@ -51,26 +51,28 @@ namespace Orion_2._0_New_Design.Forms
             this.iconPictureBox1.Location = new System.Drawing.Point(293, 12);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.iconPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.iconPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconPictureBox1.TabIndex = 0;
             this.iconPictureBox1.TabStop = false;
             this.iconPictureBox1.Click += new System.EventHandler(this.iconPictureBox1_Click);
             this.iconPictureBox1.MouseEnter += new System.EventHandler(this.iconPictureBox1_MouseEnter);
             this.iconPictureBox1.MouseLeave += new System.EventHandler(this.iconPictureBox1_MouseLeave);
             // 
-            // pictureBox1
+            // pictureBoxLogo
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxLogo.Image = global::Orion_2._0_New_Design.Properties.Resources.BNP_LOGO;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(20, 12);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(92, 89);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogo.TabIndex = 1;
+            this.pictureBoxLogo.TabStop = false;
             // 
             // labelEntry
             // 
             this.labelEntry.AutoSize = true;
             this.labelEntry.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelEntry.Location = new System.Drawing.Point(13, 104);
+            this.labelEntry.Location = new System.Drawing.Point(13, 120);
             this.labelEntry.Name = "labelEntry";
             this.labelEntry.Size = new System.Drawing.Size(79, 37);
             this.labelEntry.TabIndex = 2;
@@ -85,6 +87,7 @@ namespace Orion_2._0_New_Design.Forms
             this.buttonLogin.TabIndex = 5;
             this.buttonLogin.Text = "Далее";
             this.buttonLogin.UseVisualStyleBackColor = false;
+            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // checkBoxRemember
             // 
@@ -110,7 +113,7 @@ namespace Orion_2._0_New_Design.Forms
             this.myTextBoxPassword.Name = "myTextBoxPassword";
             this.myTextBoxPassword.Padding = new System.Windows.Forms.Padding(2);
             this.myTextBoxPassword.PasswordChar = false;
-            this.myTextBoxPassword.Size = new System.Drawing.Size(305, 22);
+            this.myTextBoxPassword.Size = new System.Drawing.Size(295, 22);
             this.myTextBoxPassword.TabIndex = 8;
             this.myTextBoxPassword.Texts = "Пароль";
             this.myTextBoxPassword.UnderlineStyle = true;
@@ -130,7 +133,7 @@ namespace Orion_2._0_New_Design.Forms
             this.myTextBoxLogin.Name = "myTextBoxLogin";
             this.myTextBoxLogin.Padding = new System.Windows.Forms.Padding(2);
             this.myTextBoxLogin.PasswordChar = false;
-            this.myTextBoxLogin.Size = new System.Drawing.Size(305, 22);
+            this.myTextBoxLogin.Size = new System.Drawing.Size(295, 22);
             this.myTextBoxLogin.TabIndex = 7;
             this.myTextBoxLogin.Texts = "Имя входа";
             this.myTextBoxLogin.UnderlineStyle = true;
@@ -142,20 +145,22 @@ namespace Orion_2._0_New_Design.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
-            this.ClientSize = new System.Drawing.Size(337, 416);
+            this.ClientSize = new System.Drawing.Size(337, 398);
             this.Controls.Add(this.myTextBoxPassword);
             this.Controls.Add(this.myTextBoxLogin);
             this.Controls.Add(this.checkBoxRemember);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.labelEntry);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.iconPictureBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LoginForm_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,7 +169,7 @@ namespace Orion_2._0_New_Design.Forms
         #endregion
 
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
         private System.Windows.Forms.Label labelEntry;
         private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.CheckBox checkBoxRemember;
