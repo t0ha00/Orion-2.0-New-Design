@@ -238,5 +238,10 @@ namespace Orion_2._0_New_Design.CustomControls
             isFocused = false;
             this.Invalidate();
         }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            this.OnKeyDown(e);
+        }
     }
 }

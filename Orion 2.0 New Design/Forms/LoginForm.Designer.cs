@@ -118,6 +118,7 @@ namespace Orion_2._0_New_Design.Forms
             this.myTextBoxPassword.Texts = "Пароль";
             this.myTextBoxPassword.UnderlineStyle = true;
             this.myTextBoxPassword.Enter += new System.EventHandler(this.myTextBoxPassword_Enter);
+            this.myTextBoxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.myTextBoxPassword_KeyDown);
             this.myTextBoxPassword.Leave += new System.EventHandler(this.myTextBoxPassword_Leave);
             // 
             // myTextBoxLogin

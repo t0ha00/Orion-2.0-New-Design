@@ -15,9 +15,29 @@ namespace Orion_2._0_New_Design.Forms
 {
     public partial class LoginForm : Form
     {
+        string responseEnter = "FALSE";
+        string loginText, passwordText;
+
         public LoginForm()
         {
             InitializeComponent();
+            if(Properties.Settings.Default.Login != "" && Properties.Settings.Default.Password != "")
+            {
+                
+                loginText = Properties.Settings.Default.Login;
+                myTextBoxLogin.Texts = loginText;
+                passwordText = Properties.Settings.Default.Password;
+                myTextBoxPassword.PasswordChar = true;
+                myTextBoxPassword.Texts = passwordText;
+                Login();
+            }
+        }
+        
+
+        public void Alert(string msg, Form_Alert.enmType type)
+        {
+            Form_Alert frm = new Form_Alert();
+            frm.showAlert(msg, type);
         }
 
         //Перетаскивание
@@ -29,6 +49,7 @@ namespace Orion_2._0_New_Design.Forms
 
         private void myTextBoxLogin_Enter(object sender, EventArgs e)
         {
+            myTextBoxLogin.ForeColor = Color.Black;
             if (myTextBoxLogin.Texts == "Имя входа")
             {
                 myTextBoxLogin.Texts = "";
@@ -47,6 +68,7 @@ namespace Orion_2._0_New_Design.Forms
 
         private void myTextBoxPassword_Enter(object sender, EventArgs e)
         {
+            myTextBoxPassword.ForeColor = Color.Black;
             if (myTextBoxPassword.Texts == "Пароль")
             {
                 myTextBoxPassword.Texts = "";
@@ -88,16 +110,55 @@ namespace Orion_2._0_New_Design.Forms
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            pictureBoxLogo.Image = Orion_2._0_New_Design.Properties.Resources.Vp3R;
-            using (WebClient webClient = new WebClient())
+            loginText = myTextBoxLogin.Texts.ToString();
+            passwordText = myTextBoxPassword.Texts.ToString();
+            Login();
+        }
+
+        private void myTextBoxPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
             {
-                var responseEnter = webClient.DownloadString("http://orion.bnprofi.host/get_login_pass?login=Вася&pass=йуцейцуе");
-                
+                loginText = myTextBoxLogin.Texts.ToString();
+                passwordText = myTextBoxPassword.Texts.ToString();
+                Login();
+            }
+        }
+
+        async void Login()
+        {
+            await DownloadString();
+
+            async Task DownloadString()
+            {
+                using (WebClient webClient = new WebClient())
+                {
+                    pictureBoxLogo.Image = Orion_2._0_New_Design.Properties.Resources.Vp3R;
+                    responseEnter = await webClient.DownloadStringTaskAsync("http://orion.bnprofi.host/get_login_pass?login=" + loginText + "&pass=" + passwordText);
+                    pictureBoxLogo.Image = Orion_2._0_New_Design.Properties.Resources.BNP_LOGO;
+                }
             }
 
-                //Form formMain = new FrmMain();
-                //formMain.Show();
-                //this.Hide();
+            if (responseEnter == "TRUE")
+            {
+                if (checkBoxRemember.Checked)
+                {
+                    Properties.Settings.Default.Login = loginText;
+                    Properties.Settings.Default.Password = passwordText;
+                    Properties.Settings.Default.Save();
+                }
+                Form formMain = new FrmMain();
+                formMain.Show();
+                this.Hide();
             }
+            else
+            {
+                Properties.Settings.Default.Login = "";
+                Properties.Settings.Default.Password = "";
+                Properties.Settings.Default.Save();
+                this.Alert("Логин или пароль не верный!", Form_Alert.enmType.Error);
+            }
+        }
+        
     }
 }
