@@ -23,7 +23,6 @@ namespace Orion_2._0_New_Design.Forms
             InitializeComponent();
             if(Properties.Settings.Default.Login != "" && Properties.Settings.Default.Password != "")
             {
-                
                 loginText = Properties.Settings.Default.Login;
                 myTextBoxLogin.Texts = loginText;
                 passwordText = Properties.Settings.Default.Password;
@@ -123,6 +122,13 @@ namespace Orion_2._0_New_Design.Forms
                 passwordText = myTextBoxPassword.Texts.ToString();
                 Login();
             }
+        }
+
+        private void myButton1_Click(object sender, EventArgs e)
+        {
+            loginText = myTextBoxLogin.Texts.ToString();
+            passwordText = myTextBoxPassword.Texts.ToString();
+            Login();
         }
 
         async void Login()

@@ -21,17 +21,25 @@ namespace Orion_2._0_New_Design
            
             using (WebClient webClient = new MyWebClient())
             {
-                var json_serverA = webClient.DownloadString("http://orion.bnprofi.host/");
-                if (json_serverA == "OK")
+                try
                 {
-                    if (Classes.DataBank.User == null)
-                        Application.Run(new Forms.LoginForm());
+                    var json_serverA = webClient.DownloadString("http://orion.bnprofi.host/");
+                    if (json_serverA == "OK")
+                    {
+                        if (Classes.DataBank.User == null)
+                            Application.Run(new Forms.LoginForm());
+                        else
+                            Application.Run(new Forms.FrmMain());
+                    }
                     else
-                        Application.Run(new Forms.FrmMain());
+                    {
+                        MessageBox.Show("Сервер не доступен, проверьте пожалуйста доступ к интернету!");
+                    }
                 }
-                else
+                catch (Exception e)
                 {
-                    MessageBox.Show("Сервер не доступен, проверьте пожалуйста доступ к интернету!");
+                    //MessageBox.Show("Ошибка - " + e);
+                    Application.Run(new Forms.LoginForm());
                 }
             }
             
@@ -43,7 +51,7 @@ namespace Orion_2._0_New_Design
             protected override WebRequest GetWebRequest(Uri address)
             {
                 WebRequest w = base.GetWebRequest(address);
-                w.Timeout = 10*60;
+                w.Timeout = 600;
                 return w;
             }
         }

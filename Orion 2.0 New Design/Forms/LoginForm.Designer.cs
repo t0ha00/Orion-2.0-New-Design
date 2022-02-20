@@ -32,10 +32,10 @@ namespace Orion_2._0_New_Design.Forms
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.labelEntry = new System.Windows.Forms.Label();
-            this.buttonLogin = new System.Windows.Forms.Button();
             this.checkBoxRemember = new System.Windows.Forms.CheckBox();
             this.myTextBoxPassword = new Orion_2._0_New_Design.CustomControls.MyTextBox();
             this.myTextBoxLogin = new Orion_2._0_New_Design.CustomControls.MyTextBox();
+            this.myButton1 = new Orion_2._0_New_Design.CustomControls.MyButton();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
@@ -77,17 +77,6 @@ namespace Orion_2._0_New_Design.Forms
             this.labelEntry.Size = new System.Drawing.Size(79, 37);
             this.labelEntry.TabIndex = 2;
             this.labelEntry.Text = "Вход";
-            // 
-            // buttonLogin
-            // 
-            this.buttonLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
-            this.buttonLogin.Location = new System.Drawing.Point(250, 342);
-            this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(75, 29);
-            this.buttonLogin.TabIndex = 5;
-            this.buttonLogin.Text = "Далее";
-            this.buttonLogin.UseVisualStyleBackColor = false;
-            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // checkBoxRemember
             // 
@@ -141,16 +130,35 @@ namespace Orion_2._0_New_Design.Forms
             this.myTextBoxLogin.Enter += new System.EventHandler(this.myTextBoxLogin_Enter);
             this.myTextBoxLogin.Leave += new System.EventHandler(this.myTextBoxLogin_Leave);
             // 
+            // myButton1
+            // 
+            this.myButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
+            this.myButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
+            this.myButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.myButton1.BorderRadius = 0;
+            this.myButton1.BorderSize = 0;
+            this.myButton1.FlatAppearance.BorderSize = 0;
+            this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.myButton1.Location = new System.Drawing.Point(250, 337);
+            this.myButton1.Name = "myButton1";
+            this.myButton1.Size = new System.Drawing.Size(75, 22);
+            this.myButton1.TabIndex = 9;
+            this.myButton1.Text = "Далее";
+            this.myButton1.TextColor = System.Drawing.SystemColors.ControlText;
+            this.myButton1.UseVisualStyleBackColor = false;
+            this.myButton1.Click += new System.EventHandler(this.myButton1_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
             this.ClientSize = new System.Drawing.Size(337, 398);
+            this.Controls.Add(this.myButton1);
             this.Controls.Add(this.myTextBoxPassword);
             this.Controls.Add(this.myTextBoxLogin);
             this.Controls.Add(this.checkBoxRemember);
-            this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.labelEntry);
             this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.iconPictureBox1);
@@ -172,9 +180,9 @@ namespace Orion_2._0_New_Design.Forms
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private System.Windows.Forms.PictureBox pictureBoxLogo;
         private System.Windows.Forms.Label labelEntry;
-        private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.CheckBox checkBoxRemember;
         private CustomControls.MyTextBox myTextBoxLogin;
         private CustomControls.MyTextBox myTextBoxPassword;
+        private CustomControls.MyButton myButton1;
     }
 }

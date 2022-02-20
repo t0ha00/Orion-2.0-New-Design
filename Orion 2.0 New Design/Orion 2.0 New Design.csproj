@@ -158,6 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\DataBank.cs" />
+    <Compile Include="CustomControls\MyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CustomControls\MyTextBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
