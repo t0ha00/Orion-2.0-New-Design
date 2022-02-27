@@ -149,6 +149,7 @@ namespace Orion_2._0_New_Design.Forms
         private void buttonMakeGroupe_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, panelGroupSubMenu);
+            openChildForm(new MakingGroups());
         }
 
         private void buttonSearch_Click(object sender, EventArgs e)

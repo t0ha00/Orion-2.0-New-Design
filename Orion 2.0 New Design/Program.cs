@@ -23,7 +23,7 @@ namespace Orion_2._0_New_Design
             {
                 try
                 {
-                    var json_serverA = webClient.DownloadString("http://orion.bnprofi.host/");
+                    var json_serverA = webClient.DownloadString(Classes.DataBank.URL);
                     if (json_serverA == "OK")
                     {
                         if (Classes.DataBank.User == null)
@@ -34,12 +34,13 @@ namespace Orion_2._0_New_Design
                     else
                     {
                         MessageBox.Show("Сервер не доступен, проверьте пожалуйста доступ к интернету!");
+                        Application.Run(new Forms.FrmMain());
                     }
                 }
                 catch (Exception e)
                 {
                     //MessageBox.Show("Ошибка - " + e);
-                    Application.Run(new Forms.LoginForm());
+                    Application.Run(new Forms.FrmMain());
                 }
             }
             

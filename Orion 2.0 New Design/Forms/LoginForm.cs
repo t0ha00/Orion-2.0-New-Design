@@ -140,7 +140,7 @@ namespace Orion_2._0_New_Design.Forms
                 using (WebClient webClient = new WebClient())
                 {
                     pictureBoxLogo.Image = Orion_2._0_New_Design.Properties.Resources.Vp3R;
-                    responseEnter = await webClient.DownloadStringTaskAsync("http://orion.bnprofi.host/get_login_pass?login=" + loginText + "&pass=" + passwordText);
+                    responseEnter = await webClient.DownloadStringTaskAsync(Classes.DataBank.URL + "get_login_pass?login=" + loginText + "&pass=" + passwordText);
                     pictureBoxLogo.Image = Orion_2._0_New_Design.Properties.Resources.BNP_LOGO;
                 }
             }
