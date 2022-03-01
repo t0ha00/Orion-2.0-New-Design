@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< Updated upstream
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using System.ComponentModel;
+=======
+using System.Windows.Forms;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+>>>>>>> Stashed changes
 
 namespace Orion_2._0_New_Design.CustomControls
 {
@@ -16,6 +22,7 @@ namespace Orion_2._0_New_Design.CustomControls
         private int borderRadius = 40;
         private Color borderColor = Color.PaleVioletRed;
 
+<<<<<<< Updated upstream
         [Category("Custom Controls")]
         public int BorderSize { get => borderSize; set { borderSize = value; this.Invalidate(); } }
         [Category("Custom Controls")]
@@ -35,6 +42,9 @@ namespace Orion_2._0_New_Design.CustomControls
             set => this.ForeColor = value;
         }
 
+=======
+        //Constructor
+>>>>>>> Stashed changes
         public MyButton()
         {
             this.FlatStyle = FlatStyle.Flat;
@@ -42,6 +52,7 @@ namespace Orion_2._0_New_Design.CustomControls
             this.Size = new Size(150, 40);
             this.BackColor = Color.MediumSlateBlue;
             this.ForeColor = Color.White;
+<<<<<<< Updated upstream
             this.Resize += new EventHandler(Button_Resize);
         }
 
@@ -61,6 +72,18 @@ namespace Orion_2._0_New_Design.CustomControls
             path.AddArc(rect.Width-radius, rect.Y, radius, radius, 270, 90);
             path.AddArc(rect.Width-radius, rect.Height-radius, radius, radius, 0, 90);
             path.AddArc(rect.X, rect.Height-radius, radius, radius, 90, 90);
+=======
+        }
+
+        private GraphicsPath GetFigurePath(RectangleF rect, float radi)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.StartFigure();
+            path.AddArc(rect.X, rect.Y, radi, radi, 180, 90);
+            path.AddArc(rect.Width - radi, rect.Y, radi, radi, 270, 90);
+            path.AddArc(rect.Width - radi, rect.Height - radi, radi, radi, 0, 90);
+            path.AddArc(rect.X, rect.Height - radi, radi, radi, 90, 90);
+>>>>>>> Stashed changes
             path.CloseFigure();
 
             return path;
@@ -72,6 +95,7 @@ namespace Orion_2._0_New_Design.CustomControls
             pevent.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
 
             RectangleF rectSurface = new RectangleF(0, 0, this.Width, this.Height);
+<<<<<<< Updated upstream
             RectangleF recBorder = new RectangleF(1, 1, this.Width - 0.8F, this.Height - 1);
 
             if (borderRadius > 2) //Если закругленная кнопка
@@ -117,6 +141,9 @@ namespace Orion_2._0_New_Design.CustomControls
         {
             if (this.DesignMode)
                 this.Invalidate();
+=======
+            RectangleF rectBorder = new RectangleF(1, 1, this.Width-0.8F, this.Height);
+>>>>>>> Stashed changes
         }
     }
 }
