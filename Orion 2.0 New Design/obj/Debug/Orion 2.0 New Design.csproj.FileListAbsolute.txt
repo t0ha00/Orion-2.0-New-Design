@@ -143,3 +143,4 @@ D:\Projects\Orion-2.0-New-Design\Orion 2.0 New Design\obj\Debug\Orion 2.0 New De
 D:\Projects\Orion-2.0-New-Design\Orion 2.0 New Design\obj\Debug\Orion 2.0 New Design.exe
 D:\Projects\Orion-2.0-New-Design\Orion 2.0 New Design\obj\Debug\Orion 2.0 New Design.pdb
 D:\Projects\Orion 2.0 New Design\Orion 2.0 New Design\obj\Debug\Orion_2._0_New_Design.Forms.MakingGroups.resources
+D:\Projects\Orion-2.0-New-Design\Orion 2.0 New Design\obj\Debug\Orion_2._0_New_Design.Forms.MakingGroups.resources

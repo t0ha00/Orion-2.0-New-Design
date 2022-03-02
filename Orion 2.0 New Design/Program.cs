@@ -27,7 +27,7 @@ namespace Orion_2._0_New_Design
                     if (json_serverA == "OK")
                     {
                         if (Classes.DataBank.User == null)
-                            Application.Run(new Forms.LoginForm());
+                            Application.Run(new Forms.FrmMain());
                         else
                             Application.Run(new Forms.FrmMain());
                     }

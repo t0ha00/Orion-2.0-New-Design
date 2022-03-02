@@ -78,6 +78,7 @@ namespace Orion_2._0_New_Design.Forms
             this.comboBoxPlaces.Name = "comboBoxPlaces";
             this.comboBoxPlaces.Size = new System.Drawing.Size(186, 21);
             this.comboBoxPlaces.TabIndex = 1;
+            this.comboBoxPlaces.SelectedIndexChanged += new System.EventHandler(this.comboBoxPlaces_SelectedIndexChanged);
             // 
             // label1
             // 
