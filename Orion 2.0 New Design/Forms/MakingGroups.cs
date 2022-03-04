@@ -14,8 +14,18 @@ namespace Orion_2._0_New_Design.Forms
 {
     public partial class MakingGroups : Form
     {
-        int codeTP = 0;
-        string[][] arrTP = new string[1][];
+        string checkedBOX = "false";
+        string stdDetails = "{0, -10}{1, -20}";
+        string codeTP = "0";
+        int index = 0;
+        List<string> arrTPN = new List<string>();
+        List<string> arrTPC = new List<string>();
+
+        public void Alert(string msg, Form_Alert.enmType type)
+        {
+            Form_Alert frm = new Form_Alert();
+            frm.showAlert(msg, type);
+        }
 
         public MakingGroups()
         {
@@ -26,13 +36,11 @@ namespace Orion_2._0_New_Design.Forms
                 webClient.Encoding = Encoding.UTF8;
                 string responseTP = webClient.DownloadString(Classes.DataBank.URL + "get_tp");
                 dynamic ListBox = JsonConvert.DeserializeObject(responseTP);
-                var index = 0;
                 foreach (var tp in ListBox)
                 {
-                    arrTP[0][index] = tp.CODE;
-                    arrTP[1][index] = tp.NAME;
+                    arrTPC.Add(tp.CODE.ToString());
+                    arrTPN.Add(tp.NAME.ToString());
                     comboBoxPlaces.Items.Add(tp.NAME);
-                    codeTP = tp.CODE;
                     index += 1;
                 }
             }
@@ -40,15 +48,27 @@ namespace Orion_2._0_New_Design.Forms
         }
         private void comboBoxPlaces_SelectedIndexChanged(object sender, EventArgs e)
         {
-            e.
+            if (checkBoxOTV.Checked)
+                checkedBOX = "true";
+            else
+                checkedBOX = "false";
+            listBoxWorkers.Items.Clear();
+            for (int i = 0; i < index; i++)
+            {
+                if (arrTPN[i] == comboBoxPlaces.SelectedItem.ToString())
+                {
+                    codeTP = arrTPC[i];
+                    break;
+                }
+            }
             using (WebClient webClient = new WebClient())
             {
                 webClient.Encoding = Encoding.UTF8;
-                string responseTP = webClient.DownloadString(Classes.DataBank.URL + "get_collaborator_list_num_goups?code=" + codeTP);
+                string responseTP = webClient.DownloadString(Classes.DataBank.URL + "get_collaborator_list_num_groups?code=" + codeTP + "&checked=" + checkedBOX);
                 dynamic ListWorkers = JsonConvert.DeserializeObject(responseTP);
                 foreach (var item in ListWorkers)
                 {
-                    listBoxWorkers.Items.Add(item.NAME);
+                    listBoxWorkers.Items.Add(String.Format(stdDetails ,item.NAME, item.NUMBER));
                 }
             }
         }

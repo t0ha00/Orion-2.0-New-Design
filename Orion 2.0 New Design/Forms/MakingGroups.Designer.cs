@@ -35,13 +35,15 @@ namespace Orion_2._0_New_Design.Forms
             this.comboBoxPlaces = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.checkBoxOTV = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.checkBoxOTV);
             this.panel1.Controls.Add(this.listBoxWorkers);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.comboBoxPlaces);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -64,7 +66,7 @@ namespace Orion_2._0_New_Design.Forms
             this.listBoxWorkers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxWorkers.FormattingEnabled = true;
-            this.listBoxWorkers.Location = new System.Drawing.Point(6, 86);
+            this.listBoxWorkers.Location = new System.Drawing.Point(6, 91);
             this.listBoxWorkers.Name = "listBoxWorkers";
             this.listBoxWorkers.Size = new System.Drawing.Size(186, 121);
             this.listBoxWorkers.TabIndex = 2;
@@ -97,6 +99,16 @@ namespace Orion_2._0_New_Design.Forms
             this.panel2.Size = new System.Drawing.Size(605, 450);
             this.panel2.TabIndex = 1;
             // 
+            // checkBoxOTV
+            // 
+            this.checkBoxOTV.AutoSize = true;
+            this.checkBoxOTV.Location = new System.Drawing.Point(141, 63);
+            this.checkBoxOTV.Name = "checkBoxOTV";
+            this.checkBoxOTV.Size = new System.Drawing.Size(48, 17);
+            this.checkBoxOTV.TabIndex = 4;
+            this.checkBoxOTV.Text = "ОТВ";
+            this.checkBoxOTV.UseVisualStyleBackColor = true;
+            // 
             // MakingGroups
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -120,5 +132,6 @@ namespace Orion_2._0_New_Design.Forms
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox checkBoxOTV;
     }
 }
