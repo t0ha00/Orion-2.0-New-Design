@@ -30,12 +30,12 @@ namespace Orion_2._0_New_Design.Forms
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.checkBoxOTV = new System.Windows.Forms.CheckBox();
             this.listBoxWorkers = new System.Windows.Forms.ListBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.comboBoxPlaces = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.checkBoxOTV = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,14 +52,15 @@ namespace Orion_2._0_New_Design.Forms
             this.panel1.Size = new System.Drawing.Size(195, 450);
             this.panel1.TabIndex = 0;
             // 
-            // label2
+            // checkBoxOTV
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Ответственные";
+            this.checkBoxOTV.AutoSize = true;
+            this.checkBoxOTV.Location = new System.Drawing.Point(141, 63);
+            this.checkBoxOTV.Name = "checkBoxOTV";
+            this.checkBoxOTV.Size = new System.Drawing.Size(48, 17);
+            this.checkBoxOTV.TabIndex = 4;
+            this.checkBoxOTV.Text = "ОТВ";
+            this.checkBoxOTV.UseVisualStyleBackColor = true;
             // 
             // listBoxWorkers
             // 
@@ -70,6 +71,15 @@ namespace Orion_2._0_New_Design.Forms
             this.listBoxWorkers.Name = "listBoxWorkers";
             this.listBoxWorkers.Size = new System.Drawing.Size(186, 121);
             this.listBoxWorkers.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Ответственные";
             // 
             // comboBoxPlaces
             // 
@@ -98,16 +108,6 @@ namespace Orion_2._0_New_Design.Forms
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(605, 450);
             this.panel2.TabIndex = 1;
-            // 
-            // checkBoxOTV
-            // 
-            this.checkBoxOTV.AutoSize = true;
-            this.checkBoxOTV.Location = new System.Drawing.Point(141, 63);
-            this.checkBoxOTV.Name = "checkBoxOTV";
-            this.checkBoxOTV.Size = new System.Drawing.Size(48, 17);
-            this.checkBoxOTV.TabIndex = 4;
-            this.checkBoxOTV.Text = "ОТВ";
-            this.checkBoxOTV.UseVisualStyleBackColor = true;
             // 
             // MakingGroups
             // 

@@ -68,7 +68,10 @@ namespace Orion_2._0_New_Design.Forms
                 dynamic ListWorkers = JsonConvert.DeserializeObject(responseTP);
                 foreach (var item in ListWorkers)
                 {
-                    listBoxWorkers.Items.Add(String.Format(stdDetails ,item.NAME, item.NUMBER));
+                    if (item.NAME.ToString().Length >= 16)
+                        listBoxWorkers.Items.Add(item.NAME + "\t" + item.NUMBER);
+                    else
+                        listBoxWorkers.Items.Add(item.NAME + "\t\t" + item.NUMBER);
                 }
             }
         }
